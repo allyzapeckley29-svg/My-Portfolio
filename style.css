@@ -1,0 +1,90 @@
+header {
+    background-color: lightcoral;
+}
+
+header img {
+    height: 250px;
+    width: 250px;
+    vertical-align: middle;
+    border: 2px;
+    border-radius: 500px;
+}
+
+span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+a {
+    color: darkblue;
+    font-weight: bold;
+    font-size: medium;
+}
+
+section {
+    color: black;
+    border: 3px solid black;
+    margin-top: 7px;
+}
+
+body {  
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;  
+    padding: 50px 50px; 
+}
+/*my project*/
+.title {  
+    text-align: center;
+    color: #1e5631;  
+    margin-bottom: 50px;
+    text-decoration: underline green; 
+}
+/*main Class*/
+
+.card-container {  
+    display: flex;  
+    justify-content: center; 
+    gap: 20px;  
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+
+}
+/*sub Class*/
+.profile-card {  
+    background-color: #e5f0e6;  
+    border: 1px solid #20d60b;  
+    border-radius: 30px;  
+    padding: 25px 30px;  
+    width: 250px;  
+    text-align: center; 
+}
+
+.profile-img {  
+    width: 120px;  
+    height: 120px;  
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {  
+    font-size: 20px;  
+    margin: 10px 5px;  
+    color: #0d0d0d; 
+}
+
+.role, .email {  
+    font-size: 15px;  
+    color: #4b5563;  
+    margin: 4px; 
+}
+.profile-card:hover{
+    transform:none;
+    box-shadow: 10px 20px;
+}
+
